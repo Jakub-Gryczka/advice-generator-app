@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h3 class="card__advice"></h3>
+      <p class="card__content"></p>
+      <div class="line">
+        <hr />
+        <img
+          srcset="
+            images/pattern-divider-mobile.svg  295w,
+            images/pattern-divider-desktop.svg 444w
+          "
+          sizes="(max-width: 800px) 295px, 444px"
+          src="images/pattern-divider-desktop.svg"
+          alt="divider"
+          class="divider"
+        />
+        <hr />
+      </div>
+      <div class="dice">
+        <button class="circle">
+          <img src="images/icon-dice.svg" alt="dice icon" class="dice__image" />
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Jakub-Gryczka"
+          >Jakub Gryczka</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
