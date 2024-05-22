@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-advice-generator-app-E3McZs5xpw
+- Live Site URL: https://jakub-gryczka.github.io/advice-generator-app/
 
 ## My process
 
